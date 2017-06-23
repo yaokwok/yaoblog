@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.YaoKwok.mblog</groupId>
+		<groupId>com.mtons.mblog</groupId>
 		<artifactId>mblog</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -10,13 +10,13 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.YaoKwok</groupId>
-			<artifactId>YaoKwok-lang</artifactId>
+			<groupId>com.mtons</groupId>
+			<artifactId>mtons-lang</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.YaoKwok</groupId>
-			<artifactId>YaoKwok-persist</artifactId>
+			<groupId>com.mtons</groupId>
+			<artifactId>mtons-persist</artifactId>
 			<scope>compile</scope>
 		</dependency>
 
