@@ -1,0 +1,22 @@
+#set($title="加入我们")
+
+<div class="shadow-box">
+	<h1 class="post-title">联系我们</h1>
+	<div class="clearfix post-other">
+		<span class="pull-left author">
+			官方团队
+		</span>
+	</div>
+	<div class="post-frame">
+		<div class="post-content">
+			<p><strong>联系我们</strong></p>
+			<p>友情链接交换、意见反馈、商业合作, 您可以 <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=h-7m6Ozw6OzH4ej-6ubu66nk6Oo" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a>
+			<p><strong>加入我们</strong><br/></p>
+			<p>如果你也想分享自己的专业知识和精彩人生，别忘了注册账号加入我们。</p>
+			<p>投稿请邮件: yaokwok@live.com</p>
+
+		</div>
+		<div class="post-footer">
+		</div>
+	</div>
+</div>

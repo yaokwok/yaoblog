@@ -1,0 +1,53 @@
+<footer>
+	<div class="footer-nav">
+		<div class="container">
+			<ul class="about-ul list-inline clearfix">
+				<li><a href="$base/about">关于我们</a></li>
+				<li><a href="$base/joinus">联系我们</a></li>
+				<li><a href="$base/faqs">常见问题</a></li>
+                <li>
+                    <script>
+                        var _hmt = _hmt || [];
+                        (function() {
+                            var hm = document.createElement("script");
+                            hm.src = "https://hm.baidu.com/hm.js?c20f80a023fe0385b07309c25354640e";
+                            var s = document.getElementsByTagName("script")[0];
+                            s.parentNode.insertBefore(hm, s);
+                        })();
+                    </script>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container mode-link">
+        <h3 class="t-h3">友情链接</h3>
+        <ul class="list-inline">
+			#foreach($link in $friendLinks)
+                <li>
+                    <a href="${link.url}" target="_blank" title="${link.remark}">${link.siteName}</a>
+                </li>
+			#end
+        </ul>
+    </div>
+	<div class="container copy-right">
+		<span>$!{site_copyright} <a
+			href="http://www.miitbeian.gov.cn/" target="_blank">$!{site_icp}</a>
+		</span>
+        <!-- start Dplus --><script type="text/javascript">!function(a,b){if(!b.__SV){var c,d,e,f;window.dplus=b,b._i=[],b.init=function(a,c,d){function g(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]),a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=b;for("undefined"!=typeof d?h=b[d]=[]:d="dplus",h.people=h.people||[],h.toString=function(a){var b="dplus";return"dplus"!==d&&(b+="."+d),a||(b+=" (stub)"),b},h.people.toString=function(){return h.toString(1)+".people (stub)"},e="disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "),f=0;f<e.length;f++)g(h,e[f]);b._i.push([a,c,d])},b.__SV=1.1,c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="//w.cnzz.com/dplus.php?id=1262319628",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}}(document,window.dplus||[]),dplus.init("1262319628");</script><!-- end Dplus -->
+		<span class="pull-right">Powered By <a href="http://www.mtons.com" target="_blank" title="Mtons社区">Mtons</a></span>
+	</div>
+</footer>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>

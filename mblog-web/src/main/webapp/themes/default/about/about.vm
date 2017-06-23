@@ -1,0 +1,29 @@
+#set($title="关于我们")
+
+<div class="shadow-box">
+	<h1 class="post-title">关于我们</h1>
+	<div class="clearfix post-other">
+		<span class="pull-left author">
+			官方团队
+		</span>
+	</div>
+	<div class="post-frame">
+		<div class="post-content">
+			<p><strong>关于YaoKwok</strong><br/></p>
+			<p>YaoKwok(中文名:邀客)是一个以轻内容为主的编程技术博客分享平台。2015年成立个人博客，博主以编写个人开发经验或转载优秀文章发表博客。2017年博主希望大家加入写博客的生涯，记录工作和生活，将个人博客升级为多用户版本，大家可以自由注册交流。
+				我们主张轻量、极简；在这里你快速的找到你赶兴趣的内容。</p>
+			<p><strong>知识产权</strong><br/></p>
+			<p>网站内容除原创标示的，均来自用户自行发起，或转载于互联网，如有涉及到版权问题，请告诉我们，我们将会对其进行删除处理</p>
+			<!--
+			<p><strong>技术架构</strong><br/></p>
+			<p>YaoKwok采用通用的SSH框架构建</p>
+			<p> 页面端采用Velocity模板语言</p>
+			<p>存储采用Ehcache、MySQL，搜索引擎使用的Lucene</p>
+			<p>前端为响应式设计，主要使用Bootstrap框架+jQuery。</p>
+			-->
+
+		</div>
+		<div class="post-footer">
+		</div>
+	</div>
+</div>
