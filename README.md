@@ -1,4 +1,4 @@
-﻿### Mblog (YaoKwok blog)开源免费的Java多人博客系统
+﻿### yaoblog 开源免费的Java多人博客系统 基于(Mblog开源博客)
 
 ### 技术选型：
 
@@ -27,10 +27,9 @@
 
 ### 开源协议 (Apache License)
 
-如果您的网站使用了 Mblog, 请在网站页面页脚处保留 YaoKwok相关版权信息链接
+如果您的网站使用了 yaoblog, 请在网站页面页脚处保留 mtons 和 YaoKwok相关版权信息链接
 
-QQ交流群：378433412
 
-### 感谢这些代码贡献者
+### 感谢
 
-[@ORZ豆丁](http://git.oschina.net/traxex)、[@Beldon](http://git.oschina.net/beldon)、 [@M豆丁](http://git.oschina.net/danke)、 [@朋也](http://git.oschina.net/20110516)
+[@Mblog](https://git.oschina.net/mtons/mblog)
