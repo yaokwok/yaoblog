@@ -56,7 +56,7 @@
 .side-right { padding: 0 0 0 15px; margin-left: -15px;}
 
 /*注册OR登录*/
-.or {background:#000000;color: #999;display: inline-block;width:26px;height:26x;line-height:26px;position: absolute;z-index: 2;margin: 12px 0px 0px -12px;border-radius: 100px;
+.or {background:#333;color: #999;display: inline-block;width:26px;height:26x;line-height:26px;position: absolute;z-index: 2;margin: 12px 0px 0px -12px;border-radius: 100px;
 -webkit-border-radius: 100px;
 -moz-border-radius: 100px;
 text-align:center;
@@ -66,7 +66,7 @@ font-weight:bold;font-size:12px;
 
 /* footer */
 
-footer { background-color: #3a3e47; }
+footer { background-color: #222; }
 footer .mode-link { margin: 15px auto 25px; }
 footer .mode-link .t-h3 { font-size: 14px; color: #b7bac1; line-height: 24px; border-bottom: 1px solid #484c57; }
 footer .mode-link .t-h3 a { color: #b7bac1; }
@@ -78,11 +78,11 @@ footer .copy-right { margin-top: 25px; position: relative; }
 footer .copy-right { border-bottom: 1px solid #31353c; line-height: 28px; padding-bottom: 20px; display: block; }
 footer .copy-right,footer .copy-right span a { color: #9398A2; font-size: 12px;}
 
-footer .footer-nav { background-color: #2d3037; height: 40px; line-height: 40px; border-bottom: 1px solid #26292e; text-align: center; }
+footer .footer-nav { background-color: #222; height: 40px; line-height: 40px; border-bottom: 1px solid #222; text-align: center; }
 footer .footer-nav ul { margin: 0 auto; display: inline-block; }
-footer .footer-nav  ul li { border-right: 1px solid #26292e; padding: 0; float: left; line-height: 39px; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
-footer .footer-nav  ul li:first-child { border-left: 1px solid #26292e; }
-footer .footer-nav  ul li:hover { background-color: #3a3e47; }
+footer .footer-nav  ul li { border-right: 1px solid #222; padding: 0; float: left; line-height: 39px; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+footer .footer-nav  ul li:first-child { border-left: 1px solid #222; }
+footer .footer-nav  ul li:hover { background-color: #222; }
 footer .footer-nav  ul li a { color: #b7bac1; display: block; padding: 0 8px; }
 
 .player {width:480px; height:400px; margin-left:auto; margin-right:auto;}
